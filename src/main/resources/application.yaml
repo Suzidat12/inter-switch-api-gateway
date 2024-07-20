@@ -12,6 +12,6 @@
           - id: customer-service
             uri: lb://customer-service
             predicates:
-              - Path=/customer/**
+              - Path=/biller/**
 
 
